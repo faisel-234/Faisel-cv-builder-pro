@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV Builder Pro — Professional NGO & Employment CVs</title>
+  <meta name="description" content="Create professional NGO and employment CVs in minutes. Designed for refugees, students, and NGO applicants." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header" id="site-header" role="banner">
+    <div class="header-inner container">
+      <div class="header-brand">
+        <div class="brand-avatar" aria-hidden="true">
+          <img src="Noor Faisel.png" alt="CV Builder Pro Logo" width="40" height="40" />
+        </div>
+        <div class="brand-text">
+          <span class="brand-name">CV Builder Pro</span>
+          <span class="brand-tagline">Professional CVs in Minutes</span>
+        </div>
+      </div>
+      <nav class="header-nav" role="navigation" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="#hero" class="nav-link">Home</a></li>
+          <li><a href="#create-cv" class="nav-link nav-link--cta">Create CV</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#developer" class="nav-link">Developer</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle theme">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </button>
+        <button class="nav-hamburger" id="nav-hamburger" aria-label="Open navigation menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+    <!-- Mobile Nav -->
+    <div class="mobile-nav" id="mobile-nav" aria-hidden="true">
+      <ul class="mobile-nav-list">
+        <li><a href="#hero" class="mobile-nav-link">Home</a></li>
+        <li><a href="#create-cv" class="mobile-nav-link">Create CV</a></li>
+        <li><a href="#about" class="mobile-nav-link">About</a></li>
+        <li><a href="#developer" class="mobile-nav-link">Developer</a></li>
+        <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="hero" aria-labelledby="hero-headline">
+      <div class="container hero-inner">
+        <div class="hero-visual" aria-hidden="true">
+          <div class="hero-photo-wrap">
+            <img src="Noor Faisel.png" class="hero-photo" />
+            <div class="hero-photo-badge">
+              <i class="fas fa-file-alt"></i>
+              <span>CV Builder</span>
+            </div>
+          </div>
+          <div class="hero-stat-card hero-stat-card--1">
+            <span class="stat-num">500+</span>
+            <span class="stat-label">CVs Generated</span>
+          </div>
+          <div class="hero-stat-card hero-stat-card--2">
+            <span class="stat-num">NGO</span>
+            <span class="stat-label">Ready Format</span>
+          </div>
+        </div>
+        <div class="hero-content">
+          <div class="hero-eyebrow">
+            <span class="eyebrow-dot"></span>
+            Free · No Registration Required
+          </div>
+          <h1 class="hero-headline" id="hero-headline">
+            Build a Professional<br />
+            <em>CV in Minutes</em>
+          </h1>
+          <p class="hero-description">
+            Create NGO-ready and employment-ready curriculum vitae documents through a simple, guided process — designed specifically for refugees, students, and community applicants.
+          </p>
+          <div class="hero-features">
+            <div class="hero-feature">
+              <i class="fas fa-check-circle" aria-hidden="true"></i>
+              <span>Professional PDF export</span>
+            </div>
+            <div class="hero-feature">
+              <i class="fas fa-check-circle" aria-hidden="true"></i>
+              <span>NGO & employment formats</span>
+            </div>
+            <div class="hero-feature">
+              <i class="fas fa-check-circle" aria-hidden="true"></i>
+              <span>No account needed</span>
+            </div>
+          </div>
+          <div class="hero-actions">
+            <a href="#create-cv" class="btn btn--primary btn--large">
+              <i class="fas fa-file-plus" aria-hidden="true"></i>
+              Create My CV
+            </a>
+            <a href="#about" class="btn btn--ghost btn--large">
+              Learn More
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CV FORM SECTION -->
+    <section class="cv-section" id="create-cv" aria-labelledby="cv-section-title">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow">Step-by-Step</p>
+          <h2 class="section-title" id="cv-section-title">Create Your CV</h2>
+          <p class="section-desc">Complete each section carefully. All fields marked with <span aria-label="required">*</span> are required.</p>
+        </div>
+
+        <div class="cv-builder-layout">
+          <!-- STEP RAIL -->
+          <aside class="step-rail" aria-label="Form progress">
+            <div class="step-rail-inner" id="step-rail">
+              <div class="step-item active" data-step="1">
+                <div class="step-dot"><span>1</span></div>
+                <div class="step-info">
+                  <span class="step-label">Personal</span>
+                  <span class="step-sublabel">Information</span>
+                </div>
+              </div>
+              <div class="step-item" data-step="2">
+                <div class="step-dot"><span>2</span></div>
+                <div class="step-info">
+                  <span class="step-label">Languages</span>
+                  <span class="step-sublabel">Proficiency</span>
+                </div>
+              </div>
+              <div class="step-item" data-step="3">
+                <div class="step-dot"><span>3</span></div>
+                <div class="step-info">
+                  <span class="step-label">Work</span>
+                  <span class="step-sublabel">Experience</span>
+                </div>
+              </div>
+              <div class="step-item" data-step="4">
+                <div class="step-dot"><span>4</span></div>
+                <div class="step-info">
+                  <span class="step-label">Education</span>
+                  <span class="step-sublabel">Background</span>
+                </div>
+              </div>
+              <div class="step-item" data-step="5">
+                <div class="step-dot"><span>5</span></div>
+                <div class="step-info">
+                  <span class="step-label">Skills</span>
+                  <span class="step-sublabel">& Abilities</span>
+                </div>
+              </div>
+              <div class="step-item" data-step="6">
+                <div class="step-dot"><span>6</span></div>
+                <div class="step-info">
+                  <span class="step-label">Training</span>
+                  <span class="step-sublabel">& Certs</span>
+                </div>
+              </div>
+              <div class="step-item" data-step="7">
+                <div class="step-dot"><span>7</span></div>
+                <div class="step-info">
+                  <span class="step-label">References</span>
+                  <span class="step-sublabel">Contact</span>
+                </div>
+              </div>
+              <div class="step-item" data-step="8">
+                <div class="step-dot"><span>8</span></div>
+                <div class="step-info">
+                  <span class="step-label">Declaration</span>
+                  <span class="step-sublabel">& Generate</span>
+                </div>
+              </div>
+            </div>
+          </aside>
+
+          <!-- FORM PANELS -->
+          <div class="form-panels">
+            <form id="cv-form" novalidate aria-label="CV Builder Form">
+
+              <!-- STEP 1: PERSONAL INFORMATION -->
+              <div class="form-panel active" id="panel-1" role="region" aria-labelledby="panel-1-title">
+                <div class="panel-header">
+                  <div class="panel-step-badge">Section 01</div>
+                  <h3 class="panel-title" id="panel-1-title">Personal Information</h3>
+                  <p class="panel-desc">Enter your basic personal and identification details.</p>
+                </div>
+
+                <div class="photo-upload-row">
+                  <div class="photo-upload-area" id="photo-upload-area" tabindex="0" role="button" aria-label="Upload passport photo">
+                    <div class="photo-preview" id="photo-preview">
+                      <img src="https://placehold.co/130x160/E5E7EB/9CA3AF?text=Photo" alt="Photo preview" id="photo-img" />
+                    </div>
+                    <div class="photo-upload-info">
+                      <i class="fas fa-camera" aria-hidden="true"></i>
+                      <span>Upload Passport Photo</span>
+                      <small>JPG, PNG · Passport size</small>
+                    </div>
+                    <input type="file" id="photo-input" accept="image/*" aria-label="Upload passport size photo" class="visually-hidden" />
+                  </div>
+                </div>
+
+                <div class="field-grid field-grid--2">
+                  <div class="field-group">
+                    <label class="field-label" for="full-name">Full Name <span class="required" aria-hidden="true">*</span></label>
+                    <input type="text" id="full-name" name="fullName" class="field-input" placeholder="e.g. Mohammed Rafiq" required aria-required="true" />
+                  </div>
+                  <div class="field-group">
+                    <label class="field-label" for="father-name">Father's Name</label>
+                    <input type="text" id="father-name" name="fatherName" class="field-input" placeholder="Father's full name" />
+                  </div>
+                  <div class="field-group">
+                    <label class="field-label" for="mother-name">Mother's Name</label>
+                    <input type="text" id="mother-name" name="motherName" class="field-input" placeholder="Mother's full name" />
+                  </div>
+                  <div class="field-group">
+                    <label class="field-label" for="dob">Date of Birth</label>
+                    <input type="date" id="dob" name="dob" class="field-input" />
+                  </div>
+                  <div class="field-group">
+                    <label class="field-label" for="sex">Sex</label>
+                    <select id="sex" name="sex" class="field-input field-select">
+                      <option value="">Select</option>
+                      <option>Male</option>
+                      <option>Female</option>
+                      <option>Prefer not to say</option>
+                    </select>
+                  </div>
+                  <div class="field-group">
+                    <label class="field-label" for="religion">Religion</label>
+                    <input type="text" id="religion" name="religion" class="field-input" placeholder="e.g. Islam" />
+                  </div>
+                  <div class="field-group">
+                    <label class="field-label" for="country">Country</label>
+                    <input type="text" id="country" name="country" class="field-input" placeholder="e.g. Bangladesh" />
+                  </div>
+                  <div class="field-group">
+                    <label class="field-label" for="nationality">Nationality</label>
+                    <input type="text" id="nationality" name="nationality" class="field-input" placeholder="e.g. Rohingya" />
+                  </div>
+                  <div class="field-group">
+                    <label class="field-label" for="phone">Phone Number <span class="required" aria-hidden="true">*</span></label>
+                    <input type="tel" id="phone" name="phone" class="field-input" placeholder="+880 1XXX XXXXXX" required aria-required="true" />
+                  </div>
+                  <div class="field-group">
+                    <label class="field-label" for="email">Email Address</label>
+                    <input type="email" id="email" name="email" class="field-input" placeholder="your@email.com" />
+                  </div>
+                  <div class="field-group">
+                    <label class="field-label" for="fcn">FCN Number</label>
+                    <input type="text" id="fcn" name="fcn" class="field-input" placeholder="Family Composition Number" />
+                  </div>
+                  <div class="field-group">
+                    <label class="field-label" for="progress-id">Progress ID</label>
+                    <input type="text" id="progress-id" name="progressId" class="field-input" placeholder="UNHCR Progress ID" />
+                  </div>
+                  <div class="field-group">
+                    <label class="field-label" for="moha-id">MOHA ID</label>
+                    <input type="text" id="moha-id" name="mohaId" class="field-input" placeholder="Ministry of Home Affairs ID" />
+                  </div>
+                  <div class="field-group">
+                    <label class="field-label" for="qualification">Highest Qualification</label>
+                    <input type="text" id="qualification" name="qualification" class="field-input" placeholder="e.g. Bachelor of Arts" />
+                  </div>
+                </div>
+
+                <div class="field-grid field-grid--1">
+                  <div class="field-group">
+                    <label class="field-label" for="permanent-address">Permanent Address</label>
+                    <textarea id="permanent-address" name="permanentAddress" class="field-input field-textarea" placeholder="Village, Union, District..." rows="2"></textarea>
+                  </div>
+                  <div class="field-group">
+                    <label class="field-label" for="current-address">Current Address</label>
+                    <textarea id="current-address" name="currentAddress" class="field-input field-textarea" placeholder="Current place of residence..." rows="2"></textarea>
+                  </div>
+                  <div class="field-group">
+                    <label class="field-label" for="profile-summary">Profile Summary</label>
+                    <textarea id="profile-summary" name="profileSummary" class="field-input field-textarea" placeholder="A brief professional summary of yourself (3–5 sentences)..." rows="4"></textarea>
+                  </div>
+                </div>
+
+                <div class="panel-nav">
+                  <div></div>
+                  <button type="button" class="btn btn--primary btn--nav" onclick="goToStep(2)">
+                    Next: Languages <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                  </button>
+                </div>
+              </div>
+
+              <!-- STEP 2: LANGUAGE PROFICIENCY -->
+              <div class="form-panel" id="panel-2" role="region" aria-labelledby="panel-2-title">
+                <div class="panel-header">
+                  <div class="panel-step-badge">Section 02</div>
+                  <h3 class="panel-title" id="panel-2-title">Language Proficiency</h3>
+                  <p class="panel-desc">Rate your language abilities across four skills for each language.</p>
+                </div>
+
+                <div class="lang-table-wrap" role="region" aria-label="Language proficiency table">
+                  <table class="lang-table" aria-label="Language proficiency ratings">
+                    <thead>
+                      <tr>
+                        <th scope="col">Language</th>
+                        <th scope="col">Speaking</th>
+                        <th scope="col">Reading</th>
+                        <th scope="col">Writing</th>
+                        <th scope="col">Listening</th>
+                      </tr>
+                    </thead>
+                    <tbody id="lang-table-body">
+                      <!-- Rows injected by JS -->
+                    </tbody>
+                  </table>
+                </div>
+
+                <div class="panel-nav">
+                  <button type="button" class="btn btn--ghost btn--nav" onclick="goToStep(1)">
+                    <i class="fas fa-arrow-left" aria-hidden="true"></i> Back
+                  </button>
+                  <button type="button" class="btn btn--primary btn--nav" onclick="goToStep(3)">
+                    Next: Work Experience <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                  </button>
+                </div>
+              </div>
+
+              <!-- STEP 3: WORK EXPERIENCE -->
+              <div class="form-panel" id="panel-3" role="region" aria-labelledby="panel-3-title">
+                <div class="panel-header">
+                  <div class="panel-step-badge">Section 03</div>
+                  <h3 class="panel-title" id="panel-3-title">Work Experience</h3>
+                  <p class="panel-desc">List your previous employment and volunteer experience. Add multiple entries if needed.</p>
+                </div>
+
+                <div id="experience-entries">
+                  <!-- Entries injected by JS -->
+                </div>
+
+                <button type="button" class="btn btn--outline btn--add" id="add-experience" aria-label="Add another work experience entry">
+                  <i class="fas fa-plus" aria-hidden="true"></i> Add Another Experience
+                </button>
+
+                <div class="panel-nav">
+                  <button type="button" class="btn btn--ghost btn--nav" onclick="goToStep(2)">
+                    <i class="fas fa-arrow-left" aria-hidden="true"></i> Back
+                  </button>
+                  <button type="button" class="btn btn--primary btn--nav" onclick="goToStep(4)">
+                    Next: Education <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                  </button>
+                </div>
+              </div>
+
+              <!-- STEP 4: EDUCATION -->
+              <div class="form-panel" id="panel-4" role="region" aria-labelledby="panel-4-title">
+                <div class="panel-header">
+                  <div class="panel-step-badge">Section 04</div>
+                  <h3 class="panel-title" id="panel-4-title">Education</h3>
+                  <p class="panel-desc">List your academic qualifications. Add all relevant education levels.</p>
+                </div>
+
+                <div id="education-entries">
+                  <!-- Entries injected by JS -->
+                </div>
+
+                <button type="button" class="btn btn--outline btn--add" id="add-education" aria-label="Add another education entry">
+                  <i class="fas fa-plus" aria-hidden="true"></i> Add Another Education
+                </button>
+
+                <div class="panel-nav">
+                  <button type="button" class="btn btn--ghost btn--nav" onclick="goToStep(3)">
+                    <i class="fas fa-arrow-left" aria-hidden="true"></i> Back
+                  </button>
+                  <button type="button" class="btn btn--primary btn--nav" onclick="goToStep(5)">
+                    Next: Skills <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                  </button>
+                </div>
+              </div>
+
+              <!-- STEP 5: SKILLS -->
+              <div class="form-panel" id="panel-5" role="region" aria-labelledby="panel-5-title">
+                <div class="panel-header">
+                  <div class="panel-step-badge">Section 05</div>
+                  <h3 class="panel-title" id="panel-5-title">Skills &amp; Abilities</h3>
+                  <p class="panel-desc">Describe your key skills. Separate individual skills with commas or new lines.</p>
+                </div>
+
+                <div class="field-grid field-grid--2">
+                  <div class="field-group">
+                    <label class="field-label" for="technical-skills">
+                      <i class="fas fa-laptop-code" aria-hidden="true"></i> Technical Skills
+                    </label>
+                    <textarea id="technical-skills" name="technicalSkills" class="field-input field-textarea" placeholder="Data analysis, Report writing, GIS mapping..." rows="3"></textarea>
+                  </div>
+                  <div class="field-group">
+                    <label class="field-label" for="computer-skills">
+                      <i class="fas fa-desktop" aria-hidden="true"></i> Computer Skills
+                    </label>
+                    <textarea id="computer-skills" name="computerSkills" class="field-input field-textarea" placeholder="Microsoft Word, Excel, PowerPoint, Internet..." rows="3"></textarea>
+                  </div>
+                  <div class="field-group">
+                    <label class="field-label" for="communication-skills">
+                      <i class="fas fa-comments" aria-hidden="true"></i> Communication Skills
+                    </label>
+                    <textarea id="communication-skills" name="communicationSkills" class="field-input field-textarea" placeholder="Public speaking, Interpretation, Report writing..." rows="3"></textarea>
+                  </div>
+                  <div class="field-group">
+                    <label class="field-label" for="leadership-skills">
+                      <i class="fas fa-users" aria-hidden="true"></i> Leadership Skills
+                    </label>
+                    <textarea id="leadership-skills" name="leadershipSkills" class="field-input field-textarea" placeholder="Team management, Community mobilization..." rows="3"></textarea>
+                  </div>
+                  <div class="field-group">
+                    <label class="field-label" for="training-skills">
+                      <i class="fas fa-chalkboard-teacher" aria-hidden="true"></i> Training &amp; Facilitation Skills
+                    </label>
+                    <textarea id="training-skills" name="trainingSkills" class="field-input field-textarea" placeholder="Workshop facilitation, Needs assessment..." rows="3"></textarea>
+                  </div>
+                  <div class="field-group">
+                    <label class="field-label" for="other-skills">
+                      <i class="fas fa-star" aria-hidden="true"></i> Other Skills
+                    </label>
+                    <textarea id="other-skills" name="otherSkills" class="field-input field-textarea" placeholder="Any other relevant skills..." rows="3"></textarea>
+                  </div>
+                </div>
+
+                <div class="panel-nav">
+                  <button type="button" class="btn btn--ghost btn--nav" onclick="goToStep(4)">
+                    <i class="fas fa-arrow-left" aria-hidden="true"></i> Back
+                  </button>
+                  <button type="button" class="btn btn--primary btn--nav" onclick="goToStep(6)">
+                    Next: Training <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                  </button>
+                </div>
+              </div>
+
+              <!-- STEP 6: TRAINING & CERTIFICATIONS -->
+              <div class="form-panel" id="panel-6" role="region" aria-labelledby="panel-6-title">
+                <div class="panel-header">
+                  <div class="panel-step-badge">Section 06</div>
+                  <h3 class="panel-title" id="panel-6-title">Training &amp; Certifications</h3>
+                  <p class="panel-desc">List training courses, workshops, and certifications you have completed.</p>
+                </div>
+
+                <div id="training-entries">
+                  <!-- Entries injected by JS -->
+                </div>
+
+                <button type="button" class="btn btn--outline btn--add" id="add-training" aria-label="Add another training entry">
+                  <i class="fas fa-plus" aria-hidden="true"></i> Add Another Training
+                </button>
+
+                <div class="panel-nav">
+                  <button type="button" class="btn btn--ghost btn--nav" onclick="goToStep(5)">
+                    <i class="fas fa-arrow-left" aria-hidden="true"></i> Back
+                  </button>
+                  <button type="button" class="btn btn--primary btn--nav" onclick="goToStep(7)">
+                    Next: References <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                  </button>
+                </div>
+              </div>
+
+              <!-- STEP 7: REFERENCES -->
+              <div class="form-panel" id="panel-7" role="region" aria-labelledby="panel-7-title">
+                <div class="panel-header">
+                  <div class="panel-step-badge">Section 07</div>
+                  <h3 class="panel-title" id="panel-7-title">References</h3>
+                  <p class="panel-desc">Provide contact details for professional references who can verify your experience.</p>
+                </div>
+
+                <div id="reference-entries">
+                  <!-- Entries injected by JS -->
+                </div>
+
+                <button type="button" class="btn btn--outline btn--add" id="add-reference" aria-label="Add another reference">
+                  <i class="fas fa-plus" aria-hidden="true"></i> Add Another Reference
+                </button>
+
+                <div class="panel-nav">
+                  <button type="button" class="btn btn--ghost btn--nav" onclick="goToStep(6)">
+                    <i class="fas fa-arrow-left" aria-hidden="true"></i> Back
+                  </button>
+                  <button type="button" class="btn btn--primary btn--nav" onclick="goToStep(8)">
+                    Next: Declaration <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                  </button>
+                </div>
+              </div>
+
+              <!-- STEP 8: DECLARATION -->
+              <div class="form-panel" id="panel-8" role="region" aria-labelledby="panel-8-title">
+                <div class="panel-header">
+                  <div class="panel-step-badge">Section 08</div>
+                  <h3 class="panel-title" id="panel-8-title">Declaration &amp; Generate PDF</h3>
+                  <p class="panel-desc">Review the declaration, then generate your professional CV.</p>
+                </div>
+
+                <div class="declaration-box" role="region" aria-label="Declaration statement">
+                  <div class="declaration-icon"><i class="fas fa-file-signature" aria-hidden="true"></i></div>
+                  <p class="declaration-text">
+                    I hereby declare that the information provided above is true and accurate to the best of my knowledge and belief. I understand that any false or misleading information may lead to disqualification or termination of employment/volunteer position.
+                  </p>
+                  <div class="declaration-check">
+                    <input type="checkbox" id="declaration-agree" name="declarationAgree" aria-required="true" />
+                    <label for="declaration-agree">I confirm and agree to the above declaration</label>
+                  </div>
+                </div>
+
+                <div class="cv-preview-info">
+                  <i class="fas fa-info-circle" aria-hidden="true"></i>
+                  <span>Your CV will be generated as a professional PDF document ready for submission to NGOs and employers.</span>
+                </div>
+
+                <div class="panel-nav generate-nav">
+                  <button type="button" class="btn btn--ghost btn--nav" onclick="goToStep(7)">
+                    <i class="fas fa-arrow-left" aria-hidden="true"></i> Back
+                  </button>
+                  <button type="button" class="btn btn--primary btn--large btn--generate" id="generate-btn" onclick="generateCV()">
+                    <i class="fas fa-file-pdf" aria-hidden="true"></i>
+                    Generate &amp; Download CV
+                  </button>
+                </div>
+              </div>
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about-section" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow">About the Tool</p>
+          <h2 class="section-title" id="about-title">Designed for Those Who Need It Most</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-card">
+            <div class="about-card-icon">
+              <i class="fas fa-heart" aria-hidden="true"></i>
+            </div>
+            <h3>Purpose</h3>
+            <p>CV Builder Pro was created to remove one barrier that displaced people, students, and community workers face when applying for jobs and humanitarian programs — the lack of access to professional document creation tools.</p>
+          </div>
+          <div class="about-card">
+            <div class="about-card-icon">
+              <i class="fas fa-users" aria-hidden="true"></i>
+            </div>
+            <h3>Who Can Use It</h3>
+            <ul class="about-list">
+              <li><i class="fas fa-check" aria-hidden="true"></i> Refugees &amp; displaced persons</li>
+              <li><i class="fas fa-check" aria-hidden="true"></i> Students &amp; recent graduates</li>
+              <li><i class="fas fa-check" aria-hidden="true"></i> NGO &amp; UN applicants</li>
+              <li><i class="fas fa-check" aria-hidden="true"></i> Community volunteers</li>
+              <li><i class="fas fa-check" aria-hidden="true"></i> Job seekers &amp; career changers</li>
+            </ul>
+          </div>
+          <div class="about-card">
+            <div class="about-card-icon">
+              <i class="fas fa-trophy" aria-hidden="true"></i>
+            </div>
+            <h3>Benefits</h3>
+            <ul class="about-list">
+              <li><i class="fas fa-check" aria-hidden="true"></i> Professional NGO-standard formatting</li>
+              <li><i class="fas fa-check" aria-hidden="true"></i> Instant PDF generation</li>
+              <li><i class="fas fa-check" aria-hidden="true"></i> No registration required</li>
+              <li><i class="fas fa-check" aria-hidden="true"></i> Works on mobile &amp; desktop</li>
+              <li><i class="fas fa-check" aria-hidden="true"></i> Completely free to use</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DEVELOPER SECTION -->
+    <section class="developer-section" id="developer" aria-labelledby="developer-title">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow">The Builder</p>
+          <h2 class="section-title" id="developer-title">Meet the Developer</h2>
+        </div>
+        <div class="developer-card">
+          <div class="dev-photo-wrap">
+            <img src="Noor Faisel.png" alt="Developer photo" class="dev-photo" />
+          </div>
+          <div class="dev-info">
+            <h3 class="dev-name">Noor Faisel</h3>
+            <p class="dev-role">Frontend Developer · Refugee Development Technologist</p>
+            <p class="dev-bio">
+              A self-taught developer and educator working at the intersection of technology and humanitarian response. Faisel builds practical tools for displaced and refugee communities, making professional resources accessible to those who need them most. Founder of the Global Refugee Development Movement (GRDM), Cox's Bazar, Bangladesh.
+            </p>
+            <div class="dev-links">
+              <a href="https://github.com/faisel-234" class="dev-link" aria-label="GitHub profile">
+                <i class="fab fa-github" aria-hidden="true"></i> GitHub
+              </a>
+              <a href="https://www.linkedin.com/in/noor-faisel-60638a334/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BBIDUR%2ByoTzWlBUSTXXO4fQ%3D%3D" class="dev-link" aria-label="LinkedIn profile">
+                <i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn
+              </a>
+              <a href="https://about.me/noorfaisel" class="dev-link" aria-label="Portfolio website">
+                <i class="fas fa-globe" aria-hidden="true"></i> Portfolio
+              </a>
+              <a href="https://www.facebook.com/share/1Cscj6PpuA/" class="dev-link" aria-label="Organization website">
+                <i class="fas fa-building" aria-hidden="true"></i> GRDM
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Social Media -->
+        <div class="social-grid" aria-label="Social media links">
+          <a href="https://github.com/faisel-234" class="social-card" aria-label="GitHub">
+            <i class="fab fa-github" aria-hidden="true"></i>
+            <span>GitHub</span>
+          </a>
+          <a href="https://www.linkedin.com/in/noor-faisel-60638a334/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BBIDUR%2ByoTzWlBUSTXXO4fQ%3D%3D" class="social-card" aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+            <span>LinkedIn</span>
+          </a>
+          <a href="https://www.facebook.com/share/1BNT3fXw5q/" class="social-card" aria-label="Facebook">
+            <i class="fab fa-facebook-f" aria-hidden="true"></i>
+            <span>Facebook</span>
+          </a>
+          <a href="https://www.instagram.com/noorfaisel29?igsh=dmxlNmV2NHo1ZGcx" class="social-card" aria-label="Instagram">
+            <i class="fab fa-instagram" aria-hidden="true"></i>
+            <span>Instagram</span>
+          </a>
+          <a href="https://x.com/short59587" class="social-card" aria-label="X (Twitter)">
+            <i class="fab fa-x-twitter" aria-hidden="true"></i>
+            <span>X</span>
+          </a>
+          <a href="https://medium.com/@noorfaisel" class="social-card" aria-label="Medium">
+            <i class="fab fa-medium-m" aria-hidden="true"></i>
+            <span>Medium</span>
+          </a>
+          <a href="https://about.me/noorfaisel" class="social-card" aria-label="Portfolio">
+            <i class="fas fa-briefcase" aria-hidden="true"></i>
+            <span>Portfolio</span>
+          </a>
+          <a href="faisel47.odoo.com" class="social-card" aria-label="Website">
+            <i class="fas fa-globe" aria-hidden="true"></i>
+            <span>Website</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow">Get in Touch</p>
+          <h2 class="section-title" id="contact-title">Contact &amp; Support</h2>
+          <p class="section-desc">Have questions or feedback? Reach out through any of the channels below.</p>
+        </div>
+        <div class="contact-cards">
+          <div class="contact-card">
+            <i class="fas fa-envelope" aria-hidden="true"></i>
+            <h4>Email</h4>
+            <a href="mailto:nm0358274@gmail.com">nm0358274@gmail.com</a>
+          </div>
+          <div class="contact-card">
+            <i class="fab fa-facebook-f" aria-hidden="true"></i>
+            <h4>Organization</h4>
+            <a href="https://www.facebook.com/share/1Cscj6PpuA/">GRDM Facebook</a>
+          </div>
+          <div class="contact-card">
+            <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+            <h4>Location</h4>
+            <span>Cox's Bazar, Bangladesh</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <div class="footer-brand-col">
+        <div class="footer-brand">
+          <img src="Noor Faisel.png" alt="CV Builder Pro" width="36" height="36" />
+          <span>CV Builder Pro</span>
+        </div>
+        <p class="footer-about">Creating professional pathways for displaced communities and global learners through accessible technology.</p>
+      </div>
+      <div class="footer-links-col">
+        <h4 class="footer-col-title">Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#create-cv">Create CV</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#developer">Developer</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-social-col">
+        <h4 class="footer-col-title">Connect</h4>
+        <div class="footer-social-links">
+          <a href="https://github.com/faisel-234" aria-label="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/in/noor-faisel-60638a334/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BBIDUR%2ByoTzWlBUSTXXO4fQ%3D%3D" aria-label="LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+          <a href="https://www.facebook.com/share/1BNT3fXw5q/" aria-label="Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+          <a href="https://x.com/short59587" aria-label="X"><i class="fab fa-x-twitter" aria-hidden="true"></i></a>
+          <a href="https://www.instagram.com/noorfaisel29?igsh=dmxlNmV2NHo1ZGcx" aria-label="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; <span id="current-year"></span> CV Builder Pro · Built by <strong>Noor Faisel</strong> ·GRDM, Cox's Bazar</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- PDF Preview Modal -->
+  <div class="modal-overlay" id="pdf-modal" role="dialog" aria-modal="true" aria-labelledby="pdf-modal-title" aria-hidden="true">
+    <div class="modal-box">
+      <div class="modal-header">
+        <h3 id="pdf-modal-title">Generating Your CV...</h3>
+        <button class="modal-close" id="modal-close" aria-label="Close">
+          <i class="fas fa-times" aria-hidden="true"></i>
+        </button>
+      </div>
+      <div class="modal-body" id="modal-body">
+        <div class="modal-loading" id="modal-loading">
+          <div class="spinner" aria-label="Loading"></div>
+          <p>Preparing your professional CV...</p>
+        </div>
+        <div class="modal-ready" id="modal-ready" style="display:none;">
+          <i class="fas fa-check-circle modal-success-icon" aria-hidden="true"></i>
+          <p>Your CV is ready!</p>
+          <div class="modal-actions">
+            <button class="btn btn--primary" id="download-btn">
+              <i class="fas fa-download" aria-hidden="true"></i> Download PDF
+            </button>
+            <button class="btn btn--ghost" id="modal-close-btn">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
